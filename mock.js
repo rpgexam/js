@@ -401,7 +401,7 @@ setInterval(function(){ if(l.getItem(vs)) {ut();}}, 1000);
 
 setInterval(function(){if(l.getItem(vs)) {if (!body){body=true;bodyunlock();}}}, 1000);
   
-setTimeout(function(){showpage();autoscroll()}, 1000);
+setTimeout(function(){}, 1000);
 
 }
   
@@ -409,7 +409,7 @@ setTimeout(function(){showpage();autoscroll()}, 1000);
 $(document).ready(function() {
 timeupdate();
 if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();}
-   
+   showpage();autoscroll();
   
 });
   $(document).ready(function() {if(l.getItem(vs)) { cont(); lnt();}});
