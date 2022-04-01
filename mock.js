@@ -409,7 +409,7 @@ setTimeout(function(){}, 1000);
 $(document).ready(function() {
 timeupdate();
 if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();}
-   
+   showpage();autoscroll();
   
 });
   $(document).ready(function() {if(l.getItem(vs)) { cont(); lnt();}});
@@ -471,4 +471,4 @@ if(q15){ca=15;caw();$('.q15 o'+q15).show()}else{$('.q15 c').show()}if(q15==0){ca
 $(document).ready(function() {
 if(l.getItem(ve)) { rcont(); rlnt();}
 });
-window.onload = function(){ showpage();autoscroll();   setTimeout(function(){l.removeItem(q+'qw'); gotohome();}, 1500);}
+window.onload = function(){setTimeout(function(){l.removeItem(q+'qw'); gotohome();}, 1500);}
