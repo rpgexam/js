@@ -153,7 +153,7 @@ function result() {location.reload();}
   
 function autosubmit(){l.removeItem(vns);hback(); $("#belowend,.endpopup").show(); $(".n-p").removeClass("mnext");bodylock();}
 
-function gotohome(){setInterval(function(){ if(l.getItem(q+'qw')) {bodylock();$(".dbox").remove();$("#below,.autopopup").show(); }}, 1000);}
+function gotohome(){setInterval(function(){ if(l.getItem(q+'qw')) {bodylock();$(".dbox,#belowpopup").hide();$("#below,.autopopup").show();$("time").remove(); }}, 1000);}
   
   
 function as(){$('.noti').finish().hide().slideDown('fast').html('Answer Saved').delay(800).fadeOut(500);lnt();
