@@ -471,4 +471,4 @@ if(q15){ca=15;caw();$('.q15 o'+q15).show()}else{$('.q15 c').show()}if(q15==0){ca
 $(document).ready(function() {
 if(l.getItem(ve)) { rcont(); rlnt();}
 });
-window.onload = function(){setTimeout(function(){l.removeItem(q+'qw'); gotohome();}, 1500);}
+window.onload = function(){setTimeout(function(){l.removeItem(q+'qw'); gotohome();}, 2000);}
