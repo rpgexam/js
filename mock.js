@@ -408,7 +408,7 @@ setTimeout(function(){}, 1000);
 
 $(document).ready(function() {
 timeupdate();
-if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();}
+if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();} else {$("#belowend,.resumepopup").show();bodylock();}
    showpage();autoscroll();
   
 });
