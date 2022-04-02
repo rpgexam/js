@@ -382,7 +382,6 @@ s = sd-(h*3600)-(m*60);
 if (h<10){h="0"+h;}if (m<10){m="0"+m;}if (s<10){s="0"+s;}
 show = m + ':' + s;
 l.setItem(vsec, sec);
-$("#belowend,.startpopup").fadeOut('fast');
 
 if (sd <= 0) {
 l.removeItem(vs);
@@ -409,7 +408,7 @@ setTimeout(function(){}, 1000);
 
 $(document).ready(function() {
 timeupdate();
-if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();} else {$("#belowend,.resumepopup").show();bodylock();}
+if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();}
 if(l.getItem(vs)) {$("#belowend,.resumepopup").show();bodylock();}
    showpage();autoscroll();
   
