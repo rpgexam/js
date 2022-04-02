@@ -59,7 +59,7 @@ vq15=l.getItem(vv15),
 sec=l.getItem(vsec),
 qd=l.getItem(vd),
 qe=l.getItem(ve),
-ca,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,
+ca,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,newtime,
 dhead=document.getElementsByTagName('dhead');
 
 l.setItem(q+'qw', newtime);
@@ -156,7 +156,11 @@ function result() {location.reload();}
   
 function autosubmit(){l.removeItem(vns);hback(); $(".dbox").hide();$("#belowend,.endpopup").show(); $(".n-p").removeClass("mnext");bodylock();}
 
-function gotohome(){setInterval(function(){if(l.getItem(q+'qw')!=newtime) {bodylock();vs=undefined;$(".dbox,#belowpopup").hide();$("#below,.autopopup").show();}}, 1000);}
+function gotohome(){newtime=new Date().getTime();
+                    l.setItem(q+'qw', newtime);
+    
+    setInterval(function(){if(l.getItem(q+'qw')!=newtime) {bodylock();vs=undefined;$(".dbox,#belowpopup").hide();$("#below,.autopopup").show();}}, 1000);
+}
   
   
 function as(){$('.noti').finish().hide().slideDown('fast').html('Answer Saved').delay(800).fadeOut(500);lnt();
