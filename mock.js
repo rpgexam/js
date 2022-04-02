@@ -395,15 +395,7 @@ else {for (var i = 0; i <time.length; i++) {time[i].innerHTML = show;}
 
 }}
 
-function timeupdate(){
-
-setInterval(function(){ if(l.getItem(vs)) {ut();}}, 1000);
-
-setInterval(function(){if(l.getItem(vs)) {if (!body){body=true;bodyunlock();}}}, 1000);
-  
-setTimeout(function(){}, 1000);
-
-}
+function timeupdate(){setInterval(function(){ if(l.getItem(vs)) {ut();}}, 1000);}
   
 
 $(document).ready(function() {
