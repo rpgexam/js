@@ -177,8 +177,7 @@ function rlnt(){var wn=$('.wr').length,cn=$('.co').length, ys=cn-(wn/4);
   
 $(document).ready(function () {
 
-$("button").click(function(){$(this).blur();});
-$("button").focus(function(){$(this).blur();});
+
    
 $(".q1 o1").click(function(){v=v1;o=1;ss();pq1();as()});
 $(".q1 o2").click(function(){v=v1;o=2;ss();pq1();as()});
