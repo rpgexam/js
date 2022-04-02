@@ -60,8 +60,8 @@ sec=l.getItem(vsec),
 qd=l.getItem(vd),
 qe=l.getItem(ve),
 ca,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,
-dhead=document.getElementsByTagName('dhead'),
-newtime=new Date().getTime();
+dhead=document.getElementsByTagName('dhead');
+
 l.setItem(q+'qw', newtime);
 for(var i=0;i<dhead.length;i++){dhead[i].innerHTML=dhead1}
   
