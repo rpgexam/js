@@ -131,6 +131,7 @@ if(mq15){$('qb:eq(15)').addClass('mark');$('.q15 .4').addClass('ro');n15=1;}
  
 
 function toolicon() {location.replace('list-1.html'); }
+function hideresume() {$("#belowend,.resumepopup").fadeOut('fast');bodyunlock(); }
   
 function showdashboard() {location.hash = "go"; bodylock(); $("#belowpopup").fadeIn('fast');$(".dashboardpop").slideDown('fast'); }
   
