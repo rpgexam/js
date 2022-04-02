@@ -152,7 +152,7 @@ function submit() {l.removeItem(vs); l.setItem(ve, '1');autosubmit();}
   
 function result() {location.reload();}
   
-function autosubmit(){l.removeItem(vns);hback(); $("#belowend,.endpopup").show(); $(".n-p").removeClass("mnext");bodylock();}
+function autosubmit(){l.removeItem(vns);hback(); hideresume();$("#belowend,.endpopup").show(); $(".n-p").removeClass("mnext");bodylock();}
 
 function gotohome(){setInterval(function(){ if(l.getItem(q+'qw')) {bodylock();vs=undefined;$(".dbox,#belowpopup").hide();$("#below,.autopopup").show();}}, 1000);}
   
@@ -410,6 +410,7 @@ setTimeout(function(){}, 1000);
 $(document).ready(function() {
 timeupdate();
 if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();} else {$("#belowend,.resumepopup").show();bodylock();}
+if(l.getItem(vs)) {$("#belowend,.resumepopup").show();bodylock();}
    showpage();autoscroll();
   
 });
