@@ -186,8 +186,8 @@ $(".q1 o3").click(function(){v=v1;o=3;ss();pq1();as()});
 $(".q1 o0").click(function(){v=v1;o=0;ss();pq1();as()});
 $(".q1 c").click(function(){l.removeItem(v1);mq1();ac()});
 $(".q1 o4").click(function(){  
-if(l.getItem(mv1)) {l.removeItem(mv1); $('.q1 .4').removeClass('ro');$('qb:eq(1)').removeClass('mark'); mc();} 
-else {v=mv1;o=1;ss(); $('.q1 .4').addClass('ro');$('qb:eq(1)').addClass('mark'); md();}});
+if(l.getItem(q+'m1')) {l.removeItem(q+'m1'); $('.q1 .4').removeClass('ro');$('qb:eq(1)').removeClass('mark'); mc();} 
+else {l.setItem(q+'m1','1'); $('.q1 .4').addClass('ro');$('qb:eq(1)').addClass('mark'); md();}});
 
 function pq1(){ $('.q1 .o').removeClass('r');$('qb:eq(1)').addClass('r n');$('.q1 .'+o).addClass('r')}
 function mq1(){$('.q1 .o, qb:eq(1)').removeClass('r n'); }
