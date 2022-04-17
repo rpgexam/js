@@ -401,7 +401,7 @@ setInterval(function(){ if(l.getItem(vs)) {ut();}}, 1000);
 
 setInterval(function(){if(l.getItem(vs)) {if (!body){body=true;bodyunlock();}}}, 1000);
   
-setTimeout(function(){autoscroll()}, 1000);
+
 
 }
   
@@ -410,9 +410,9 @@ $(document).ready(function() {
 timeupdate();
 if(l.getItem(vd)==null) {$("#belowend,.startpopup").show();bodylock();}
    
-  
+  showpage(); autoscroll();
 });
-  $(document).ready(function() {if(l.getItem(vs)) { cont(); lnt(); showpage()}});
+  $(document).ready(function() {if(l.getItem(vs)) { cont(); lnt(); }});
 
 
 function caw(){$('qb:eq('+ca+')').addClass('wr');$('.q'+ca+' .y').addClass('red');}
@@ -469,6 +469,6 @@ if(q15){ca=15;caw();$('.q15 o'+q15).show()}else{$('.q15 c').show()}if(q15==0){ca
   
  
 $(document).ready(function() {
-if(l.getItem(ve)) { rcont(); rlnt(); showpage()}
+if(l.getItem(ve)) { rcont(); rlnt();}
 });
 window.onload = function(){setTimeout(function(){l.removeItem(q+'qw'); gotohome();}, 1500);}
