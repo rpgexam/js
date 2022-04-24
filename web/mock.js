@@ -1,6 +1,6 @@
 var vl=q+'l1',v1=q+'q1',v2=q+'q2',v3=q+'q3',v4=q+'q4',v5=q+'q5',v6=q+'q6',v7=q+'q7',v8=q+'q8',v9=q+'q9',
 v10=q+'q10',v11=q+'q11',v12=q+'q12',v13=q+'q13',v14=q+'q14',v15=q+'q15',
-vya=q+'qya',vna=q+'qna',vns=q+'qns',vd=q+'qd',vs=q+'qs',vr=q+'qr',ve=q+'qe',vsec=q+'qsec',
+vya=q+'qya',vna=q+'qna',vns=q+'qns',vn=q+'s',vd=q+'qd',vs=q+'qs',vr=q+'qr',ve=q+'qe',vsec=q+'qsec',
 mv1=q+'m1',mv2=q+'m2',mv3=q+'m3',mv4=q+'m4',mv5=q+'m5',mv6=q+'m6',mv7=q+'m7',mv8=q+'m8',mv9=q+'m9',mv10=q+'m10',mv11=q+'m11',mv12=q+'m12',mv13=q+'m13',mv14=q+'m14',mv15=q+'m15',vv1=q+'v1',vv2=q+'v2',vv3=q+'v3',vv4=q+'v4',vv5=q+'v5',vv6=q+'v6',vv7=q+'v7',vv8=q+'v8',vv9=q+'v9',vv10=q+'v10',vv11=q+'v11',vv12=q+'v12',vv13=q+'v13',vv14=q+'v14',vv15=q+'v15',
 v,o,
 body=false,
@@ -465,7 +465,7 @@ if(q15){ca=15;caw();$('.q15 o'+q15).show()}else{$('.q15 c').show()}if(q15==0){ca
   
   
   function storagereset(){
-   var remove = [vya,vna,vd,ve,vs,vr,vsec,vns,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,mv1,mv2,mv3,mv4,mv5,mv6,mv7,mv8,mv9,mv10,mv11,mv12,mv13,mv14,mv15,vv1,vv2,vv3,vv4,vv5,vv6,vv7,vv8,vv9,vv10,vv11,vv12,vv13,vv14,vv15,q+'s']; for (key of remove) {l.removeItem(key); location.reload();} }
+   var remove = [vya,vna,vd,ve,vs,vr,vsec,vns,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,mv1,mv2,mv3,mv4,mv5,mv6,mv7,mv8,mv9,mv10,mv11,mv12,mv13,mv14,mv15,vv1,vv2,vv3,vv4,vv5,vv6,vv7,vv8,vv9,vv10,vv11,vv12,vv13,vv14,vv15,vn]; for (key of remove) {l.removeItem(key); location.reload();} }
   
  
 $(document).ready(function() {
