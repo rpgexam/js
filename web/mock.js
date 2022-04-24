@@ -151,7 +151,7 @@ function submit() {l.removeItem(vs); l.setItem(ve, '1');autosubmit();}
   
 function result() {location.reload();}
   
-function autosubmit(){l.removeItem(vns);hback(); $("#belowend,.endpopup").show(); $(".n-p").removeClass("mnext");bodylock();}
+function autosubmit(){l.removeItem(vns);l.removeItem(vn);hback(); $("#belowend,.endpopup").show(); $(".n-p").removeClass("mnext");bodylock();}
 
 function gotohome(){setInterval(function(){ if(l.getItem(q+'qw')) {bodylock();$(".dbox").hide();$("#below,.autopopup").show(); }}, 1000);}
   
