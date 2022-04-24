@@ -465,7 +465,7 @@ if(q15){ca=15;caw();$('.q15 o'+q15).show()}else{$('.q15 c').show()}if(q15==0){ca
   
   
   function storagereset(){
-   var remove = [vya,vna,vd,ve,vs,vr,vsec,vns,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,mv1,mv2,mv3,mv4,mv5,mv6,mv7,mv8,mv9,mv10,mv11,mv12,mv13,mv14,mv15,vv1,vv2,vv3,vv4,vv5,vv6,vv7,vv8,vv9,vv10,vv11,vv12,vv13,vv14,vv15]; for (key of remove) {l.removeItem(key); location.reload();} }
+   var remove = [vya,vna,vd,ve,vs,vr,vsec,vns,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15,mv1,mv2,mv3,mv4,mv5,mv6,mv7,mv8,mv9,mv10,mv11,mv12,mv13,mv14,mv15,vv1,vv2,vv3,vv4,vv5,vv6,vv7,vv8,vv9,vv10,vv11,vv12,vv13,vv14,vv15,q+'s']; for (key of remove) {l.removeItem(key); location.reload();} }
   
  
 $(document).ready(function() {
